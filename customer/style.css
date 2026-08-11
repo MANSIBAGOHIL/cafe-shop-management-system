@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+
+.container2 .btn_box button {
+	display: inline-block;
+	padding: 10px 45px;
+	background-color: #ffbe33;
+	color: #ffffff;
+	border-radius: 45px;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	border: none;
+	margin-top: 15px;
+}
+
+.container2 .btn_box button:hover {
+background-color: #e69c00;
+}
+.container1 {
+	background-color: #397580;
+	height: 87.5vh;
+	width: 100vw;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	position: relative;
+}
+
+.container1 .container2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.img {
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container2 label {
+	display: block;
+	margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], select, input[type="number"] {
+	width: 100vh;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 5px;
+	
+}
+
+input[type="submit"] {
+	display: block;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #555;
+}
